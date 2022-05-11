@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+		<title>Wesley Morford</title>
+		<link rel="stylesheet" href="stylesheet/portfolio.css">
+	</head>
+	
+	<body class="Background">
+
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="back_video">
+                <source src="./video/back.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Wesley Morford's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>“Any fool can write code that a computer can understand.
+                        <br> Good programmers write code that humans can understand.”
+                        <br> - Martin Fowler
+                    </q>
+                    <br>
+                    <br>
+                    <p class="center">My name is Wesley Morford. Welcome to my portfolio. Below, I will tell you about my background and experience.
+                    <br>
+                    <br>Thanks for coming by and enjoy!</p>
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/html_custom.png" alt=""> 
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    <p>I am a software developer and avid coder. I enjoy getting old DOS games to run on modern PCs and look forward to getting my son involved in all things nerdy and awesome.</p>
+                    <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Python Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL and more.</p>
+                    <p>In my free time I also work on my own Game Development projects with C# and Unity.</p>
+                    <br>
+                    <p>I am a full-stack developer and I'm excited to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>Github</h1>
+                <p>
+                    Here are some of my coding projects on GitHub:
+                    <br>
+                    <p class="center"><a href="https://github.com/WMorf" target="_blank">Wesley Morford Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/WMorf" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/html_custom2.png" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xgedrawy" method="post">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">Wesley Morford</p>
+                <br>
+            </p>
+        </footer>
+
+	</body>
+	
+</html>

@@ -335,6 +335,11 @@ footer {
     animation: movePopup 5s;
 }
 
+/* Divider */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
 @keyframes movePopup {
     from {right: -40vw;}
     to {right: 1.75vw;}

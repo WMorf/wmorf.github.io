@@ -6,13 +6,21 @@
     <title>Unity WebGL Player | Womp</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="../stylesheet/portfolio.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/RandomDungeon.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+      <!-- Navbar -->
+      <div class="Navbar">
+        <a class="active" href="../index.html">Home</a>
+        <a href="https://github.com/WMorf">GitHub</a>
+        <a href="https://www.inkedin.com/in/wes-morford/">LinkedIn</a>
+        <a href="https://docs.google.com/document/d/1Fhag4QGjvy4PAk7ESpUhWrqbvBPUX75rUDaAkpx4z-Q/edit?usp=sharing">Resume</a>
+    </div>
+  <body style="background-color: black;">
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
@@ -23,3 +31,4 @@
     </div>
   </body>
 </html>
+

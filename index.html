@@ -13,11 +13,9 @@
         <!-- Navbar -->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
-            <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
             <a href="https://www.inkedin.com/in/wes-morford/">LinkedIn</a>
             <a href="https://docs.google.com/document/d/1Fhag4QGjvy4PAk7ESpUhWrqbvBPUX75rUDaAkpx4z-Q/edit?usp=sharing">Resume</a>
-            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
         </div>
 
         <br>
@@ -33,18 +31,17 @@
 
         <!--Video text-->
         <div class="Video_Text">
-            <h1 class="white-text">Wesley Morford's Portfolio</h1>
+            <h1 class="white-text">Wesley Morford</h1>
             <strong>
                 <p class="center">
-                    <q>“Any fool can write code that a computer can understand.
-                        <br> Good programmers write code that humans can understand.”
-                        <br> - Martin Fowler
-                    </q>
-                    <br>
-                    <br>
+
                     <p class="center">My name is Wesley Morford. Welcome to my portfolio. Below, I will tell you about my background and experience.
                     <br>
                     <br>Thanks for coming by and enjoy!</p>
+                    <p>I am a software developer and avid coder. I enjoy getting old DOS games to run on modern PCs and look forward to getting my son involved in all things nerdy and awesome.</p>
+                    <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained in the following languages: HTML/CSS, Python, JavaScript, SQL and C#.</p>
+                    <!--<p>In my free time I also work on my own Game Development projects with C# and Unity.</p>-->
+                    <p>I am a full-stack developer and I'm excited to work with you on your project. Contact me below!</p>
                 </p>
             </strong>
         </div>
@@ -102,66 +99,49 @@
         </div>
 
 
-        <!--About section-->
-        <div class="Row" id="About">
-            <!--Left column-->
-            <div class="Column_2">
-                <h1>About Me</h1>
-                <p>
-                    <p>I am a software developer and avid coder. I enjoy getting old DOS games to run on modern PCs and look forward to getting my son involved in all things nerdy and awesome.</p>
-                    <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained in the following languages: HTML/CSS, Python, JavaScript, SQL and C#.</p>
-                    <!--<p>In my free time I also work on my own Game Development projects with C# and Unity.</p>-->
-                    <p>I am a full-stack developer and I'm excited to work with you on your project. Contact me below!</p>
-                </p>
-            </div>
-            <!--Right column-->
+<!-- 
             <div class="Column_1">
                 <h1>Unity Projects</h1>
                 <p>Mob State Machine Tests</p>
-                <a href="./GameBuilds/Wowzer1/MobDemo.html">Early</a>
-                <a href="./GameBuilds/Wowzer2/WOWzer.html">Rewards/Mutation</a>
-                <a href="./GameBuilds/Wowzer3/3dTilt.html">3dTilt</a>
+                <a href="./GameBuilds/Wowzer1/WOWzer1.html">Early</a>
+                <a href="./GameBuilds/Wowzer2/WOWzer2.html">Rewards/Mutation</a>
+                <a href="./GameBuilds/Wowzer3/WOWzer3.html">3dTilt</a>
                 <p>Other Projects</p>
                 <a href="./GameBuilds/MissileCommand/MissileCommand.html">MissileCommand</a><br>
                 <a href="./GameBuilds/CrowdTest/CrowdTest.html.html">CrowdTest</a><br>
                 <a href="./GameBuilds/RandomDungeon/RandomDungeon.html">RandomizedDungeon</a><br>
+            </div> -->
+
+            <!-- Unity Projects-->
+            <div class="Row">
+                <div class="Column_3">
+                    <h1 style="margin-top: 1vh;">Unity Projects</h1>
+                    <p class="center">Check out some of my projects made using the Unity Engine and try them in your browser!</p>
+                </div>
             </div>
-        </div>
+
+
+            <div class="Row">
+                <!--Left column-->
+                <div class="Column_2">
+                    <img src="./images/Games/RandomDungeon.png" class="screenshot">
+                </div>
+                <!--Right column-->
+                <div class="Column_1">
+
+                </div>
+            </div>
+
         <!--GitHub section-->
         <div class="Row" id="GitHub">
             <!--Left column-->
-            <div class="Column_1">
-                <h1>Check me out on GitHub</h1>
+            <div class="Column_4">
+                <h1 style="margin-top: 1vh;">Check me out on GitHub</h1>
                     <br>
                     <p class="center"><a href="https://github.com/WMorf" target="_blank">WMorf</a></p>
                     <hr class="solid">
                     <p class="center"><a href="https://github.com/WMorf/TTA-Projects" target="_blank">Tech Academy CourseWork</a></p>
                     <p class="center"><a href="https://github.com/WMorf/Unity-Projects" target="_blank">My Unity Repository</a></p>
-            </div>
-            <!--Right column-->
-            <div class="Column_2">
-                <a href="https://github.com/WMorf" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
-            </div>
-        </div>
-
-        <!--Contact section-->
-        <div id="Contact">  <!--<img src="./images/html_custom2.png" alt="Contact_Image">-->
-            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
-            <div class="form-popup" id="myForm">
-                <form action="https://formspree.io/f/xgedrawy" method="post" class="form-container">
-                    <h1>Contact</h1>
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label for="phone"><b>Phone</b></label>
-                        <input type="text" placeholder="Type your name here" name="name" required>
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-
-                    <button type="submit" class="btn">SUBMIT</button>
-                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
-                </form>
             </div>
         </div>
 

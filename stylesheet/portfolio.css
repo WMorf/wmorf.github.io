@@ -325,8 +325,9 @@ footer {
 }
 
 .screenshot {
-    height: 50%;
-    width: 65%;
+    height: 75%;
+    width: 75%;
+    border: 2px dotted black;
 }
 
 /*

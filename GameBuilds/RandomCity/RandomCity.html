@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Womp</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="../../stylesheet/portfolio.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Random City.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <!-- Navbar -->
+  <div class="Navbar">
+    <a class="active" href="../../index.html">Home</a>
+    <a href="https://github.com/WMorf">GitHub</a>
+    <a href="https://www.linkedin.com/in/wes-morford/">LinkedIn</a>
+    <a href="https://docs.google.com/document/d/1Fhag4QGjvy4PAk7ESpUhWrqbvBPUX75rUDaAkpx4z-Q/edit?usp=sharing">Resume</a>
+</div>
+  <body style="background-color: black;">
+    <div class="webgl-content" style="margin-top: 110px;">
+      <div id="unityContainer" style="width: 1366px; height: 768px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Womp</div>
+      </div>
+    </div>
+  </body>
+</html>

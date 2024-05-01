@@ -17,8 +17,8 @@
         <a href="https://www.linkedin.com/in/wes-morford/">LinkedIn</a>
         <a href="https://docs.google.com/document/d/1Fhag4QGjvy4PAk7ESpUhWrqbvBPUX75rUDaAkpx4z-Q/edit?usp=sharing">Resume</a>
     </div>
-    <div id="unity-container" class="unity-desktop" style="margin-top: 100px;">
-      <canvas id="unity-canvas" width=1366 height=768 tabindex="-1" style="width: 1366px; height: 768px"></canvas>
+    <div id="unity-container" class="unity-desktop" style="margin-top: 110px;">
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -65,11 +65,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/New folder.loader.js";
+      var loaderUrl = buildUrl + "/MC.loader.js";
       var config = {
-        dataUrl: buildUrl + "/New folder.data",
-        frameworkUrl: buildUrl + "/New folder.framework.js",
-        codeUrl: buildUrl + "/New folder.wasm",
+        dataUrl: buildUrl + "/MC.data",
+        frameworkUrl: buildUrl + "/MC.framework.js",
+        codeUrl: buildUrl + "/MC.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "TTA",
         productName: "ClassicsArcade",
@@ -102,8 +102,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
